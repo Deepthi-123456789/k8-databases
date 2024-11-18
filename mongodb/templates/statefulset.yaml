@@ -14,7 +14,7 @@ spec:
       project: roboshop
       tier: db
   serviceName: "mongodb"
-  replicas: "{{ .Values.statefulset.replicas }}"
+  replicas: {{ .Values.statefulset.replicas }}
   template:
     metadata:
       labels:
