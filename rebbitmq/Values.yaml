@@ -1,2 +1,0 @@
-statefulset:
-  replicas: 2
